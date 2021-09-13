@@ -16,6 +16,8 @@ import org.springframework.context.annotation.Bean
 @SpringBootApplication
 open class Application {
 
+    // testing squash, commit 1
+
     @Value("\${es.port}")
     val port = 9200
 
